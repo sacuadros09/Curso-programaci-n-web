@@ -1,15 +1,16 @@
 import React from "react"
+import GameOverwatch from "../../Images/OverwatchDragon.jpg"
 
 export const Body = () =>{
     return(
         <body>
-        <h1>Juegos Destacados</h1>
+        <nav>
+        <img src={GameOverwatch} alt="GameOverwatch"></img>
+        <button>Mas Información</button>
 
-        <h3>PC</h3>
 
-        <h3>CONSOLA</h3>
 
-        <h3>MÓVIL</h3>
+        </nav>
         </body>
     )
 }
