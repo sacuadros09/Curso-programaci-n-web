@@ -20,78 +20,71 @@ export const Footer = () => {
     return(
         <footer>
         <nav>
-
-        <h1>Juegos Destacados</h1>
-
-        <button>PC</button>
-        <button>CONSOLA</button>
-        <button>MÓVIL</button>
-
-        <img src={Wow1} alt="Wow1"></img>
+        <img src={Wow1} alt="Wowimg"></img>
          <h1>World of Warcraft: The War Within</h1>
          <p>MMORPG</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
 
-         <img src={Wow2} alt="Wow2"></img>
+         <img src={Wow2} alt="Wowimg"></img>
          <h1>World of Warcraft:Cataclysm Classic</h1>
          <p>MMORPG</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
 
-         <img src={WarcraftRumble} alt="WarcraftRumble"></img>
+         <img src={WarcraftRumble} alt="WarcraftRumbleimg"></img>
          <h1>Warcraft Rumble</h1>
          <p>ACCIÓN ESTRATÉGIA PARA JUEGOS MÓVILES</p>
-         <img src={AppleLogo} alt="AppleLogo"></img>
-         <img src={GooglePlay} alt="GooglePlay"></img>
+         <img src={AppleLogo} alt="AppleLogoimg"></img>
+         <img src={GooglePlay} alt="GooglePlayimg"></img>
          
 
-         <img src={DiabloIV} alt="DiabloIV"></img>
+         <img src={DiabloIV} alt="DiabloIVimg"></img>
          <h1>DiabloIV</h1>
          <p>ROL Y ACCIÓN</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
-         <img src={LogoXbox} alt="LogoXbox"></img>
-         <img src={LogoPlaystation} alt="LogoPlay"></img>
-         <img src={LogoSteam} alt="LogoSteam"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
+         <img src={LogoXbox} alt="LogoXboximg"></img>
+         <img src={LogoPlaystation} alt="LogoPlayimg"></img>
+         <img src={LogoSteam} alt="LogoSteamimg"></img>
 
-         <img src={Wow3} alt="Wow3"></img>
+         <img src={Wow3} alt="Wowimg"></img>
          <h1>World of Warcraft</h1>
          <p>MMORPG</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
 
-         <img src={Overwatch2} alt="Overwatch2"></img>
+         <img src={Overwatch2} alt="Overwatch2img"></img>
          <h1>Overwatch 2</h1>
          <p>ACCIÓN POR EQUIPOS</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
-         <img src={LogoXbox} alt="LogoXbox"></img>
-         <img src={LogoPlaystation} alt="LogoPlay"></img>
-         <img src={LogoSteam} alt="LogoSteam"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
+         <img src={LogoXbox} alt="LogoXboximg"></img>
+         <img src={LogoPlaystation} alt="LogoPlayimg"></img>
+         <img src={LogoSteam} alt="LogoSteamimg"></img>
 
-         <img src={Hearthstone} alt="Hearthstone"></img>
+         <img src={Hearthstone} alt="Hearthstoneimg"></img>
          <h1>Hearthstone</h1>
          <p>JUEGO DE CARTAS DE ESTRATEGIA</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
-         <img src={AppleLogo} alt="AppleLogo"></img>
-         <img src={GooglePlay} alt="GooglePlay"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
+         <img src={AppleLogo} alt="AppleLogoimg"></img>
+         <img src={GooglePlay} alt="GooglePlayimg"></img>
 
-         <img src={DiabloInmortal} alt="DiabloInmortal"></img>
+         <img src={DiabloInmortal} alt="DiabloInmortalimg"></img>
          <h1>Diablo inmortal</h1>
          <p>ROL Y ACCIÓN</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
-         <img src={AppleLogo} alt="AppleLogo"></img>
-         <img src={GooglePlay} alt="GooglePlay"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
+         <img src={AppleLogo} alt="AppleLogoimg"></img>
+         <img src={GooglePlay} alt="GooglePlayimg"></img>
 
-         <img src={DiabloResurected} alt="DiabloResurected"></img>
+         <img src={DiabloResurected} alt="DiabloResurectedimg"></img>
          <h1>Diablo II: Resurrected</h1>
          <p>ROL Y ACCIÓN</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
-         <img src={LogoXbox} alt="LogoXbox"></img>
-         <img src={LogoPlaystation} alt="LogoPlay"></img>
-         <img src={LogoSteam} alt="LogoSteam"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
+         <img src={LogoXbox} alt="LogoXboximg"></img>
+         <img src={LogoPlaystation} alt="LogoPlayimg"></img>
+         <img src={LogoSteam} alt="LogoSteamimg"></img>
          
 
-         <img src={WarcraftIIIReforged} alt="WarcraftIIIReforged"></img>
+         <img src={WarcraftIIIReforged} alt="WarcraftIIIReforgedimg"></img>
          <h1> Warcraft III: Reforged</h1>
          <p>ESTRATEGIA EN TIEMPO REAL</p>
-         <img src={IconoBattleNet} alt="IconoBattleNet"></img>
+         <img src={IconoBattleNet} alt="IconoBattleNetimg"></img>
 
         </nav>
         </footer>
