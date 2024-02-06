@@ -4,6 +4,9 @@
     background-color: #282d43;
     width: 96%;
     position: fixed;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 10px;
 }
 
 .Logo{

@@ -9,8 +9,6 @@ export const Body = () =>{
         <img className="OverwatchImage" src={GameOverwatch} alt="GameOverwatch"></img>
         <button className='Button'>Más Información</button>
 
-
-
         </nav>
         </body>
     )
