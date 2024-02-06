@@ -1,0 +1,64 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    background-color: #282d43;
+    width: 96%;
+    position: fixed;
+}
+
+.Logo{
+    width: 100px;
+    height: 58px;
+    margin-right: 20px;
+    
+}
+
+
+.IconImg {
+    width: 30px;
+    height: 30px;
+}
+
+.IconBattleNet{
+    width: 30px;
+    height: 30px;
+}
+
+.LeftCategories{
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+    align-items: center;
+   
+}
+
+.RightCatergories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.Categories{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+p{
+    padding-right: 9%;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}   
+
+.DownloadBattleNet{
+    width: 420px;
+    height: 42px;
+    font-size:14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}

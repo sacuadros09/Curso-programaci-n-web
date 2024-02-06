@@ -1,25 +1,36 @@
+import './Header.css'
 import React from "react"
 import BlizzardLogo from "../../Images/LogoBlizzard.png"
 import IconoCuenta from "../../Images/IconoCuenta.png"
-import BattleNet from "../../Images/Battle Net.png"
+import IconoBattleNet from "../../Images/IconoBattleNet.png"
 
 
 export const Header=()=>{
     return(
         <header>
-        <nav>
-        <img src={BlizzardLogo} alt="BlizzardLogo"></img>
-         <p>Warcraft</p>
+        <section className="NavBar">
+        <section className="LeftCategories">
+        <img className="Logo" src={BlizzardLogo} alt="BlizzardLogo"></img>
+        <section className='Categories'>
+        <p>Warcraft</p>
         <p>Diablo</p>
         <p>Overwatch </p>
         <p>Starcraft</p>
-        <p>Información</p>  
-        <p>...</p>
+        <p>...</p> 
+        </section>
+        </section>
+        <section className="RightCatergories">
+        <p>Información</p> 
         <p>Tienda</p>
-        <img src={IconoCuenta} alt="IconoCuenta"></img>
+        <img className='IconImg' src={IconoCuenta} alt="IconoCuenta"></img>
         <p>Cuenta</p>  
-        <img src={BattleNet} alt="BattleNet"></img>
-        </nav>
+        <button className='DownloadBattleNet'>
+            
+            <img className= "IconImg"src = "https://cdn.icon-icons.com/icons2/1508/PNG/512/battlenet_104070.png"></img>
+            Descarga Battle.net
+        </button>
+        </section>
+        </section>
         </header>
     )
-}
+}   
