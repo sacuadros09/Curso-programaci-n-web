@@ -5,7 +5,7 @@ export const Games = () => {
     return(
        <section className='Games'>
         <section className="LeftGames">
-        <h1>JUEGOS DESTACADOS</h1>
+        <h1 className='GamesTitle'>JUEGOS DESTACADOS</h1>
         </section>
         <section className='RightGames'>
       <button className='Pc'>PC</button>

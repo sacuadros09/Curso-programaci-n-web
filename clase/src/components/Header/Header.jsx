@@ -12,18 +12,18 @@ export const Header=()=>{
         <section className="LeftCategories">
         <img className="Logo" src={BlizzardLogo} alt="BlizzardLogo"></img>
         <section className='Categories'>
-        <p>Warcraft</p>
-        <p>Diablo</p>
-        <p>Overwatch </p>
-        <p>Starcraft</p>
-        <p>...</p> 
+        <p className='WarcraftTitle'>Warcraft</p>
+        <p className='DiabloTitle'>Diablo</p>
+        <p className='OverwatchTitle'>Overwatch </p>
+        <p className='StarcraftTitle'>Starcraft</p>
+        <p className='PointsTitle'>...</p> 
         </section>
         </section>
         <section className="RightCatergories">
-        <p>Información</p> 
-        <p>Tienda</p>
+        <p className='InformacionTitle'>Información</p> 
+        <p className='TiendaTitle'>Tienda</p>
         <img className='IconImg' src={IconoCuenta} alt="IconoCuenta"></img>
-        <p>Cuenta</p>  
+        <p className='CuentaTitle'>Cuenta</p>  
         <button className='DownloadBattleNet'>
             
             <img className= "IconImg"src = "https://cdn.icon-icons.com/icons2/1508/PNG/512/battlenet_104070.png"></img>
