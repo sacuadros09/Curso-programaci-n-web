@@ -2,7 +2,7 @@ import './Header.css'
 import React from "react"
 import BlizzardLogo from "../../Images/LogoBlizzard.png"
 import IconoCuenta from "../../Images/IconoCuenta.png"
-import IconoBattleNet from "../../Images/IconoBattleNet.png"
+
 
 
 export const Header=()=>{
