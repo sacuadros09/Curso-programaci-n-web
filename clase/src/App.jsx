@@ -2,7 +2,7 @@ import React from "react"
 import { Header } from "./components/Header/Header"
 import { Body } from "./components/Body/Body"
 import { Games } from "./components/Games/Games"
-import { Footer } from "./components/Footer/Footer"
+import { Catalogue } from "./components/Catalogue/Catalogue"
 import { ButtonInfo } from "./components/ButtonInfo/ButtonInfo"
 
 export default function App(){
@@ -11,7 +11,7 @@ export default function App(){
         <Header/>
         <Body/>
         <Games/>
-        <Footer/>
+        <Catalogue/>
         <ButtonInfo/>
         </div>
     
