@@ -24,20 +24,23 @@ const CatalogueCard = [
 
 ]
 
-export function Catalogue(){
+export function Catalogue (){
     return(
         <section className="CardGames">
+        {CatalogueCard.map(function(Catalogue){
+        return(  
+      <section className ="ContainerCard">
         <img className="ImgCard1"style={{width:"254", height:"338"}}src ={Catalogue.img} alt="CardGame"/>
         <h1 className="TitleCard">{CatalogueCard.Title}</h1>
         <h3 className="DescriptionCard"> {CatalogueCard.Description}</h3>
-        <img2 className="ImgCard2"style={{width:"24", height:"24"}}src ={Catalogue.img2} alt="CardGame"/>
-        <img3 className="ImgCard3"style={{width:"24", height:"24"}}src ={Catalogue.img3} alt="CardGame"/>
-        <img4 className="ImgCard4"style={{width:"24", height:"24"}}src ={Catalogue.img4} alt="CardGame"/>
-        <img5 className="ImgCard5"style={{width:"24", height:"24"}}src ={Catalogue.img5} alt="CardGame"/>
-        <img6 className="ImgCard6"style={{width:"24", height:"24"}}src ={Catalogue.img6} alt="CardGame"/>
-
-
-
-        </section>
+        <img2 className="ImgCard2"style={{width:"24", height:"24"}}src ={Catalogue.img2} alt="IconGame"/>
+        <img3 className="ImgCard3"style={{width:"24", height:"24"}}src ={Catalogue.img3} alt="IconGame"/>
+        <img4 className="ImgCard4"style={{width:"24", height:"24"}}src ={Catalogue.img4} alt="IconGame"/>
+        <img5 className="ImgCard5"style={{width:"24", height:"24"}}src ={Catalogue.img5} alt="IconGame"/>
+        <img6 className="ImgCard6"style={{width:"24", height:"24"}}src ={Catalogue.img6} alt="IconGame"/>
+       </section> 
     )
-}
+    })}
+    </section>
+)
+        }
