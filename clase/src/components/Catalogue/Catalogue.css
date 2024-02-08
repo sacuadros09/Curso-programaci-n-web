@@ -1,0 +1,20 @@
+.CardGames{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(18%,1fr)); 
+    gap: 10px;
+}
+
+.ImgCard1{
+    width: 254px;
+    height: 338px;
+}
+
+h1 {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 14px;
+    color: #D0E9FF99;
+}

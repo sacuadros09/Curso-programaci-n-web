@@ -1,7 +1,10 @@
 import React from "react"
+import "./ButtonInfo.css"
 
 export const ButtonInfo = () =>{
     return(
-        <button>VER TODOS LOS JUEGOS</button>
+        <section className="Bot">
+        <button className="ButtonInfo">Ver todos los juegos</button>
+        </section>
     )
 }
