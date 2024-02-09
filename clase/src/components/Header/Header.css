@@ -77,34 +77,43 @@ p{
 }
 
 .WarcraftTitle{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .DiabloTitle{
-    font-size: 20px;
+    font-size:19px;
 }
 
 .OverwatchTitle{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .StarcraftTitle{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .PointsTitle{
     font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.079);
+    color: aliceblue;
+    width: 40px;
+    height: 50px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .InformacionTitle{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .TiendaTitle{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .CuentaTitle{
-    font-size: 20px;
+    font-size: 19px;
 }
 

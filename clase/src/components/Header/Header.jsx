@@ -5,6 +5,7 @@ import IconoCuenta from "../../Images/IconoCuenta.png"
 
 
 
+
 export const Header=()=>{
     return(
         <header>
@@ -16,7 +17,7 @@ export const Header=()=>{
         <p className='DiabloTitle'>Diablo</p>
         <p className='OverwatchTitle'>Overwatch </p>
         <p className='StarcraftTitle'>Starcraft</p>
-        <p className='PointsTitle'>...</p> 
+        <button className='PointsTitle'>...</button>
         </section>
         </section>
         <section className="RightCatergories">

@@ -4,6 +4,8 @@ import { Body } from "./components/Body/Body"
 import { Games } from "./components/Games/Games"
 import { Catalogue } from "./components/Catalogue/Catalogue"
 import { ButtonInfo } from "./components/ButtonInfo/ButtonInfo"
+import { DownloadBattle } from "./components/DownloadBattle/DownloadBattle"
+import { Contacts } from "./components/Contacts/Contacts"
 
 export default function App(){
     return(
@@ -13,6 +15,8 @@ export default function App(){
         <Games/>
         <Catalogue/>
         <ButtonInfo/>
+        <DownloadBattle/>
+        <Contacts/>
         </div>
     
     )
