@@ -1,0 +1,70 @@
+.Contacts{
+    display: flex;
+    flex-direction: row;
+}
+.LeftContacts{
+    display: flex;
+    flex-direction: row;
+}
+
+.Empleo{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 40px
+}
+
+.Informacion{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 40px
+}
+
+.Asistencia{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 40px
+}
+
+.Contacto{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 40px
+}
+
+.Prensa{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 40px
+}
+
+.Api{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 40px
+}
+
+.MapaDelSitio{
+    font-size: 18px;
+    color: aliceblue;
+    padding-right: 500px
+}
+
+.ButtonGlobeEu{
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Globe{
+    width: 24px;
+    height: 24px;
+    color: aliceblue;
+}
+
+
+
+
+
+

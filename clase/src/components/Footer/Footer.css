@@ -1,0 +1,14 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.BlizzardsLogo {
+    width: 150px;
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
