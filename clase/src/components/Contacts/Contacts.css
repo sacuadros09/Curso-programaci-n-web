@@ -1,10 +1,12 @@
 .Contacts{
     display: flex;
     flex-direction: row;
+    margin-top: 180px;
 }
 .LeftContacts{
     display: flex;
     flex-direction: row;
+    margin-left: 60px;
 }
 
 .Empleo{
@@ -46,7 +48,7 @@
 .MapaDelSitio{
     font-size: 18px;
     color: aliceblue;
-    padding-right: 500px
+    padding-right: 450px
 }
 
 .ButtonGlobeEu{
@@ -54,6 +56,8 @@
     color: aliceblue;
     display: flex;
     flex-direction: row;
+    font-size: 16px;
+    margin-top: 6%;
 
 }
 

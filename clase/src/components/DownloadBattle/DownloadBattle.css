@@ -1,5 +1,43 @@
-.DownloadBattle{
-    width: 500px;
-    height: 500px;
- background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/blta8f9a8e092360c6c/bltb1b55d28d4835ac9/64c007d6a4648b44a076cd13/Desktop.jpg?format=webply&quality=80&auto=webp);
+
+
+.Avila {
+    width: 990px;
+    height: 615px;
+    margin-top: 170px;
+    align-items: center;
+  justify-content: center;
+}
+
+.NetButton{
+    position: absolute;
+    left: 400px;
+    top: 2600px;
+
+    font-size: 30px;
+
+    background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 80px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  
+  padding: 19px 40px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.InfoButton{
+    position: absolute;
+    left: 650px;
+    top: 2600px;
+    font-size: 30px;
+    border-radius: 100px;
+    color: #fff;
+    background-color:#ffffff41
+    
 }

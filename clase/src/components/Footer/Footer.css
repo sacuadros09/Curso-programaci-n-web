@@ -1,14 +1,61 @@
 .Footer{
     display: flex;
     flex-direction: row;
+  
 }
 
+.LeftFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Terms{
+    display: flex;
+    flex-direction: row;
+}
 .BlizzardsLogo {
     width: 150px;
     height: 83px;
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-right: 400px;
+    margin-top: 60px;
+    
+
+}
+
+
+.Entertainment{
+    position: absolute;
+    font-size: 12px;
+    left: 300px;
+}
+
+.Marcas{
+    position: absolute;
+    font-size: 12px;
+    left: 300px;
+    top: 3150px;
+  
+}
+
+.Privacidad{
+    font-size: 12px;
+}
+.Legal{
+    font-size: 12px;
+}
+.Terminos{
+    font-size: 12px;
+}
+.PoliticaCookies{
+    font-size: 12px;
+}
+
+.AjustesCookies{
+    font-size: 12px;
 }
 

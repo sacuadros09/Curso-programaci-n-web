@@ -19,7 +19,6 @@ export default function App(){
         <DownloadBattle/>
         <Contacts/>
         <Footer/>
-       
         </div>
     
     )
