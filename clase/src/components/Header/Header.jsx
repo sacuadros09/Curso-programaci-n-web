@@ -16,7 +16,7 @@ export const Header=()=>{
         <p className='WarcraftTitle'>Warcraft</p>
         <p className='DiabloTitle'>Diablo</p>
         <p className='OverwatchTitle'>Overwatch </p>
-        <p className='StarcraftTitle'>Starcraft</p>
+        <p className='StarcraftTitle'>StarCraft</p>
         <button className='PointsTitle'>...</button>
         </section>
         </section>

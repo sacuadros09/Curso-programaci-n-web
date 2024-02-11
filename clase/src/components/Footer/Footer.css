@@ -1,7 +1,8 @@
 .Footer{
     display: flex;
     flex-direction: row;
-  
+    border-top: solid;
+
 }
 
 .LeftFooter {
