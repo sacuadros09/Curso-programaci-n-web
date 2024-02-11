@@ -1,7 +1,7 @@
 .Contacts{
     display: flex;
     flex-direction: row;
-    margin-top: 180px;
+    margin-top: 160px;
 }
 .LeftContacts{
     display: flex;
@@ -10,6 +10,7 @@
 }
 
 .Empleo{
+    margin-left: 20px;
     font-size: 18px;
     color: aliceblue;
     padding-right: 40px

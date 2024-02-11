@@ -1,18 +1,17 @@
 
-
 .DownloadBattleNe {
-    width: 1390px;
-    height: 600px;
-    margin-top: 170px;
-    margin-left: 40px;
+    width: 1300px;
+    height: 560px;
+    margin-top: 150px;
+   
     border-radius: 23px;
    
 }
 
 .NetButton{
     position: absolute;
-    left: 210px;
-    top: 2590px;
+    left: 220px;
+    top: 2434px;
 
     font-size: 30px;
 
@@ -25,7 +24,7 @@
   cursor: pointer;
   font-family: Montserrat,sans-serif;
   
-  padding: 19px 40px;
+  padding: 16px 34px;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
@@ -34,11 +33,20 @@
 
 .InfoButton{
     position: absolute;
-    left: 450px;
-    top: 2570px;
-    font-size: 30px;
+    width: 262px;
+    height: 68px;
+    left: 442px;
+    top: 2434px;
+    font-size: 24px;
     border-radius: 100px;
-    color: #fff;
-    background-color:#ffffff41
+    
+    background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 80px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
     
 }

@@ -1,6 +1,7 @@
 .OverwatchImage{
     width: 86%;
     top: 0; 
+    border-radius: 5px;
 }
 
 .Button{

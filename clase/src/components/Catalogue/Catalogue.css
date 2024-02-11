@@ -1,16 +1,22 @@
 .CardGames{
+    margin-top: 4px;
+    padding-right: 90px;
+    padding-left: 92px;
+    margin-left: 4px;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(18%,1fr)); 
-    gap: 10px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+     grid-template-rows: repeat(2, 1fr);
+    
 }
 
 .ImgCard1{
-    width: 254px;
-    height: 338px;
+    width: 238px;
+    height: 315px;
+    border-radius: 6px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 18px;
     color: aliceblue;
 }
 
@@ -19,3 +25,23 @@ h3 {
     color: #D0E9FF99;
 }
 
+.TitleCard{
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-left: 10px;
+}
+
+.DescriptionCard{
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-left: 12px;
+}
+
+.Logitos {
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-left: 15px;
+}
