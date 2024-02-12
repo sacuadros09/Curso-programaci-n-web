@@ -7,6 +7,7 @@ export const Contacts = () => {
     return(
        <section className='Contacts'>
         <section className="LeftContacts">
+          <section className='Border'></section>
         <h3 className='Empleo'>Empleo</h3>
         <h3 className='Informacion'>Información</h3>
         <h3 className='Asistencia'>Asistencia</h3>

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 160px;
+    border-bottom: solid;
 }
 .LeftContacts{
     display: flex;
@@ -10,46 +11,48 @@
 }
 
 .Empleo{
-    margin-left: 20px;
+    margin-left: 60px;
     font-size: 18px;
     color: aliceblue;
     padding-right: 40px
+    
+    
 }
 
 .Informacion{
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
     padding-right: 40px
 }
 
 .Asistencia{
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
     padding-right: 40px
 }
 
 .Contacto{
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
     padding-right: 40px
 }
 
 .Prensa{
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
     padding-right: 40px
 }
 
 .Api{
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
     padding-right: 40px
 }
 
 .MapaDelSitio{
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
-    padding-right: 450px
+    padding-right: 385px
 }
 
 .ButtonGlobeEu{
@@ -63,13 +66,8 @@
 }
 
 .Globe{
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     color: aliceblue;
 }
-
-
-
-
-
 

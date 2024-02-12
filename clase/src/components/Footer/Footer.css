@@ -1,9 +1,8 @@
 .Footer{
     display: flex;
     flex-direction: row;
-    border-top: solid;
-
 }
+
 
 .LeftFooter {
     display: flex;
@@ -15,31 +14,41 @@
 .Terms{
     display: flex;
     flex-direction: row;
+    gap: 9px;
+    position: absolute;
+    left: 300px;
+    top: 2938px;
 }
+
+
 .BlizzardsLogo {
-    width: 150px;
-    height: 83px;
+    margin-right: 12px;
+    width: 140px;
+    height: 73px;
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
-    margin-right: 400px;
-    margin-top: 60px;
+    margin-left: 115px;
+    margin-top: 40px;
+    margin-bottom: 180px;
     
 
 }
+
 
 
 .Entertainment{
     position: absolute;
     font-size: 12px;
     left: 300px;
+    top: 2884px;
 }
 
 .Marcas{
     position: absolute;
     font-size: 12px;
     left: 300px;
-    top: 3150px;
+    top: 2904px;
+   
   
 }
 
