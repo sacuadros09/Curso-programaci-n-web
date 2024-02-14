@@ -18,6 +18,8 @@
 h1 {
     font-size: 18px;
     color: aliceblue;
+    margin-left: 15px;
+    height: 0%;
 }
 
 h3 {
@@ -27,16 +29,14 @@ h3 {
 
 .TitleCard{
     display: flex;
-    flex-direction: row;
-    justify-self: start;
-    margin-left: 10px;
 }
 
 .DescriptionCard{
     display: flex;
     flex-direction: row;
     justify-self: start;
-    margin-left: 12px;
+    margin-left: 16px;
+    margin-top: 30px;
 }
 
 .Logitos {
@@ -44,4 +44,5 @@ h3 {
     flex-direction: row;
     justify-self: start;
     margin-left: 15px;
+    gap: 10px;
 }

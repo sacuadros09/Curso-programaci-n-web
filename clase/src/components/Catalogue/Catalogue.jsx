@@ -20,8 +20,8 @@ import Switch from "../../Images/device-nintendo.svg"
 
 
 const CatalogueCard = [
-{img: Wow1,Title:"World of Warcraft: The War Within",Description:"MMORPG",img2: BattleNet},
-{img: Wow2,Title:"World of Warcraft:Cataclysm Classic",Description:"MMORPG",img2:BattleNet},
+{img: Wow1,Title:"The War Within",Description:"MMORPG",img2: BattleNet},
+{img: Wow2,Title:"Cataclysm Classic",Description:"MMORPG",img2:BattleNet},
 {img: WarcraftRumble,Title:"Warcraft Rumble",Description:"ACCIÓN ESTRATÉGIA",img3:Apple,img4:GooglePlay},
 {img: DiabloIV,Title:"DiabloIV",Description:"ROL Y ACCIÓN",img2: BattleNet,img5:Xbox,img6:PlayStation,img7:Steam},
 {img: Wow3,Title:"World of Warcraft",Description:"MMORPG",img2:BattleNet},

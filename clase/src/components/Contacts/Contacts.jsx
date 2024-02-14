@@ -1,6 +1,7 @@
 import './Contacts.css'
 import React from 'react'
 import Globe from "../../Images/Globe.png"
+import Global from "../../Images/global-svgrepo-com.svg"
 
 
 export const Contacts = () => {
@@ -19,7 +20,7 @@ export const Contacts = () => {
         <section className='RightContacts'>
         <button className='ButtonGlobeEu'>
             
-            <img className= "Globe"src = {Globe}></img>
+            <img className= "Globe"src = {Global}></img>
             Español(EU)
         </button>
       </section>

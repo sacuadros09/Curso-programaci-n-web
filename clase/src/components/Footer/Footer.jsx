@@ -1,6 +1,7 @@
 import './Footer.css'
 import React from 'react'
 import BlizzardsLogo from "../../Images/BlizzardsLogo.png"
+import Global from "../../Images/global-svgrepo-com.svg"
 
 
 export const Footer = () => {
