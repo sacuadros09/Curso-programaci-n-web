@@ -1,11 +1,11 @@
 .Games{
     display: flex;
     flex-direction: row;
-    margin-top: 26px;
+    margin-top: 0px;
 }
 
 .LeftGames{
-  margin-left: 6%;
+  margin-left: 5.5%;
     
 }
 
@@ -16,7 +16,7 @@
 }
 
 .RightGames{
-    margin-left: 40%;
+    margin-left: 41%;
     align-items: center;
     display: flex;
 }
@@ -63,4 +63,77 @@
     width: 116px;
     border-radius: 50px;
     background-color:#ffffff27
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .Games {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(5, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+
+    }
+    .GamesTitle{
+        margin-top: 1px;    
+        margin-left: -180px;
+        font-size: 20px;
+     color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+
+    .RightGames{
+        margin-left: -15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .Pc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        text-align: center;
+        margin-right: 12px;
+        height: 26px;
+        width: 56px;
+        border-radius: 50px;
+        margin-left: 33px;
+        font-size: 14px;
+        background-color:#ffffff27
+        
+    }
+
+
+
+    .Consola{
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: aliceblue;
+        text-align: center;
+        height: 26px;
+        width: 94px;
+        border-radius: 50px;
+        background-color:#ffffff27
+    }
+
+    .Movil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        text-align: center;
+        margin-left: 12px;
+        height: 26px;
+        width: 72px;
+        font-size: 14px;
+          border-radius: 50px;
+          background-color:#ffffff27
+          
+    }
+    
 }

@@ -1,17 +1,19 @@
-.NavBar{
+.nav-Bar{
     display: flex;
     flex-direction: row;
     background-color: #282d43;
-    width: 97%;
+    width: 94%;
     height: 10%;
     position: fixed;
     margin-top: 1%;
-    margin-left: 1%;
     border-radius: 6px;
+    z-index: 10;
 }
 
 
-
+.Menu {
+    display: none;
+}
 .Logo{
     width: 90px;
     height: 50px;
@@ -21,27 +23,28 @@
 }
 
 
-.IconImg {
+.icon-Img {
     width: 25px;
     height: 25px;
     padding-right: 7px;
 
 }
 
-.IconBattleNet{
+.icon-battle-Net{
     width: 30px;
     height: 30px;
 }
 
-.LeftCategories{
+.left-Categories{
     display: flex;
     flex-direction: row;
-    margin-right: 240px;
+    margin-right: 200px;
     align-items: center;
+    
    
 }
 
-.RightCatergories{
+.right-Catergories{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,14 +57,16 @@
    
 }
 
-p{
+li{
     padding-right: 9%;
     color: aliceblue;
     font-size: 10px;
     text-align: center;
+    list-style-type: none;
+    text-decoration: none;
 }   
 
-.DownloadBattleNet{
+.download-battle-Net{
     width: 390px;
     height: 42px;
     font-size:14px;
@@ -72,23 +77,28 @@ p{
     color: aliceblue;
 }
 
-.WarcraftTitle{
+.warcraft-Title{
     font-size: 16px;
+    margin-top: 1px;
+    
 }
 
-.DiabloTitle{
+.diablo-Title{
     font-size:16px;
+    margin-top: 15px;
 }
 
-.OverwatchTitle{
+.overwatch-Title{
     font-size: 16px;
+    margin-top: 15px;
 }
 
-.StarcraftTitle{
+.starcraft-Title{
     font-size: 16px;
+    margin-top: 15px;
 }
 
-.PointsTitle{
+.points-Title{
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.079);
     color: aliceblue;
@@ -101,15 +111,110 @@ p{
     
 }
 
-.InformacionTitle{
+.informacion-Title{
     font-size: 16px;
 }
 
-.TiendaTitle{
+.tienda-Title{
     font-size: 16px;
 }
 
-.CuentaTitle{
+.cuenta-Title{
     font-size: 16px;
 }
 
+.warcrafts-button{
+    background-color: transparent;
+}
+
+.diablos-button{
+    background-color: transparent;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nav-Bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #282d43;
+    width: 64%;
+    height: 3.3%;
+    margin-top: 1px;
+    position: fixed;
+}
+
+
+.icon-Img {
+
+    width: 30px;
+    height: 30px;
+   display: flex;
+   margin-left: -60px;
+
+}
+
+.Logo{
+    width: 65px;
+    height: 45px;
+    display: flex;
+    margin-left: 177px;
+}
+
+
+.right-Catergories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+.icon-battle-Net{
+    display: none;
+}
+
+.download-battle-Net{
+    display: none;
+}
+
+.warcraft-Title{
+    display: none;
+}
+
+.diablo-Title{
+    display: none;
+}
+
+.overwatch-Title{
+    display: none;
+}
+
+.starcraft-Title{
+    display: none;
+}
+
+.points-Title{
+    display: none;
+    
+}
+
+.informacion-Title{
+    display: none;
+}
+
+.tienda-Title{
+    display: none;
+}
+
+.cuenta-Title{
+    display: none;
+}
+
+.Menu{
+  
+    height: 24px;
+    display: flex;
+margin-left: -250px;
+}
+
+
+  }

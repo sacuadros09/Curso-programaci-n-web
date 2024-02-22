@@ -1,19 +1,18 @@
-
-.DownloadBattleNe {
+.download-battle-Ne {
     width: 1300px;
     height: 560px;
     margin-top: 150px;
-   
     border-radius: 23px;
+    
    
 }
 
-.NetButton{
+.net-Button{
     position: absolute;
-    left: 220px;
-    top: 2404px;
+    left: 236px;
+    top: 2428px;
 
-    font-size: 30px;
+    font-size: 22px;
 
     background-image: linear-gradient(#0dccea, #0d70ea);
   border: 0;
@@ -24,29 +23,154 @@
   cursor: pointer;
   font-family: Montserrat,sans-serif;
   
-  padding: 16px 34px;
+  padding: 22px 46px;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
-.InfoButton{
+.info-Button{
     position: absolute;
     width: 262px;
     height: 68px;
-    left: 442px;
-    top: 2404px;
+    left: 444px;
+    top: 2428px;
     font-size: 24px;
     border-radius: 100px;
     
-    background-image: linear-gradient(#0dccea, #0d70ea);
+   
   border: 0;
   border-radius: 80px;
-  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+ 
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   font-family: Montserrat,sans-serif;
+  background-color:#ffffff27
     
 }
+
+
+.logo-Download{
+  width: 3.5%;
+  position: absolute;
+  left: 240px;
+  top: 2184px;
+
+}
+.battle-Tittle{
+  position: absolute; position: absolute;
+  color: #fff;
+  font-size: 36px;
+  left: 300px;
+  top: 2152px;
+}
+
+.battle-Download{
+  position: absolute;
+  color: #fff;
+  font-size: 56px;
+  left: 226px;
+  top: 2208px;
+}
+
+.battle-Description{
+  position: absolute;
+  color: #FFFFFFB3;
+  font-size: 21px;
+  left: 238px;
+  top: 2318px;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+  .download-battle-Ne {
+    width: 380px;
+    height: 260px;
+    margin-top: 30px;
+    border-radius: 23px;
+    
+   
+}
+
+.net-Button{
+  position: absolute;
+  left: 80px;
+  top: 954px;
+
+  font-size: 16px;
+
+  background-image: linear-gradient(#0dccea, #0d70ea);
+border: 0;
+border-radius: 80px;
+box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+font-family: Montserrat,sans-serif;
+
+padding: 13px 18px;
+text-align: center;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.info-Button{
+  position: absolute;
+  width: 111px;
+  height: 45px;
+  left: 80px;
+  top: 1014px;
+  font-size: 13px;
+  border-radius: 100px;
+  
+ 
+border: 0;
+border-radius: 80px;
+
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+font-family: Montserrat,sans-serif;
+background-color:#ffffff27
+  
+}
+
+.logo-Download{
+  width: 7%;
+  position: absolute;
+  left: 43px;
+  top: 897px;
+
+}
+
+.battle-Tittle{
+  position: absolute; position: absolute;
+  color: #fff;
+  font-size: 22px;
+  left: 80px;
+  top: 877px;
+}
+
+.battle-Download{
+  position: absolute;
+  color: #fff;
+  font-size: 21px;
+  display: flex;
+  left: 50px;
+  top: 1077px;
+  display: none;
+}
+
+.battle-Description{
+  position: absolute;
+  color: #FFFFFFB3;
+  font-size: 21px;
+  left: 238px;
+  top: 2518px;
+  display: none;
+}
+
+} 

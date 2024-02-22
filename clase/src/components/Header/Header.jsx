@@ -1,37 +1,66 @@
 import './Header.css'
-import React from "react"
+import React, {useState} from "react"
 import BlizzardLogo from "../../Images/LogoBlizzard.png"
-import IconoCuenta from "../../Images/IconoCuenta.png"
+import IconoCuenta from "../../Images/Icono Blanco.png"
+import Menu from "../../Images/icons8-menú.svg"
+import {HamburgerBlizzard} from "../NavBarHamburger/NavBarHamburger"
+import {DiabloBlizzard} from "../NavBarDiablo/NavBarDiablo"
 
 
 
+export default function Header(){
+    const [showMenu,setShowMenu] = useState(false)
+    const [showMenu2, setShowMenu2] = useState(false)
+    
+    const handleClick = (e) => {
+        setShowMenu(!showMenu)
+      }
+      
+      const handleClick2 = (e) => {
+        setShowMenu2(!showMenu2)
+      }
 
-export const Header=()=>{
     return(
         <header>
-        <section className="NavBar">
-        <section className="LeftCategories">
+        <section className="nav-Bar">
+        <section className="left-Categories">
         <img className="Logo" src={BlizzardLogo} alt="BlizzardLogo"></img>
+        <img className='Menu' src={Menu} alt='MenuIcon'></img>
         <section className='Categories'>
-        <p className='WarcraftTitle'>Warcraft</p>
-        <p className='DiabloTitle'>Diablo</p>
-        <p className='OverwatchTitle'>Overwatch </p>
-        <p className='StarcraftTitle'>StarCraft</p>
-        <button className='PointsTitle'>...</button>
+         <button className='warcrafts-button' onClick={handleClick}>
+        <li className='warcraft-Title'>Warcraft</li>
+        </button>
+
+        <button className='diablos-button' onClick={handleClick2}>
+        <li className='diablo-Title'>Diablo</li>
+        </button>
+        <li className='overwatch-Title'>Overwatch </li>
+        <li className='starcraft-Title'>StarCraft</li>
+        
+        <button className='points-Title'>...</button>
         </section>
         </section>
-        <section className="RightCatergories">
-        <p className='InformacionTitle'>Información</p> 
-        <p className='TiendaTitle'>Tienda</p>
-        <img className='IconImg' src={IconoCuenta} alt="IconoCuenta"></img>
-        <p className='CuentaTitle'>Cuenta</p>  
-        <button className='DownloadBattleNet'>
+        <section className="right-Catergories">
+        <li className='informacion-Title'>Información</li> 
+        <li className='tienda-Title'>Tienda</li>
+        <img className='icon-Img' src={IconoCuenta} alt="IconoCuenta"></img>
+        <li className='cuenta-Title'>Cuenta</li>  
+        
+        <button className='download-battle-Net'>
             
-            <img className= "IconImg"src = "https://cdn.icon-icons.com/icons2/1508/PNG/512/battlenet_104070.png"></img>
+            <img className= "icon-Img"src = "https://cdn.icon-icons.com/icons2/1508/PNG/512/battlenet_104070.png"></img>
             Descarga Battle.net
         </button>
         </section>
         </section>
+        <section className='hamburguer-nav-Bar'>
+       {!showMenu ? null : <HamburgerBlizzard/>}
+        </section>
+
+        <section className='diablo-nav-Bar'>
+       {!showMenu2 ? null : <DiabloBlizzard/>}
+        </section>
+
         </header>
     )
 }   

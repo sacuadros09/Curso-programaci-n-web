@@ -34,49 +34,49 @@ const CatalogueCard = [
 
 export function Catalogue (){
     return( 
-        <section className="CardGames">
+        <section className="card-Games">
         {CatalogueCard.map(function(Catalogue,index){
         return(  
-      <section className ="ContainerCard" key={Catalogue.Title}>
-        <img className="ImgCard1"style={{width:"208", height:"277"}}src ={Catalogue.img} alt="CardGame"/>
-        <h1 className="TitleCard">{Catalogue.Title}</h1>
-        <h3 className="DescriptionCard"> {Catalogue.Description}</h3>
+      <section className ="container-Card" key={Catalogue.Title}>
+        <img className="img-Card1"style={{width:"208", height:"277"}}src ={Catalogue.img} alt="CardGame"/>
+        <h1 className="title-Card">{Catalogue.Title}</h1>
+        <h3 className="description-Card"> {Catalogue.Description}</h3>
 
         <section className="Logitos">
-        {(index === 0) && <img className="ImgCard0"  style={{width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 0) && <img className="img-Card0"  style={{width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
 
-        {(index === 1) && <img className="ImgCard2"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 1) && <img className="img-Card2"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
 
-        {(index === 2) && <img className="ImgCard3"  style={{ width: "24px", height: "24px" }} src={Catalogue.img3} alt="IconGame" />}
-        {(index === 2) && <img className="ImgCard3"  style={{ width: "24px", height: "24px" }} src={Catalogue.img4} alt="IconGame" />}
+        {(index === 2) && <img className="img-Card3"  style={{ width: "24px", height: "24px" }} src={Catalogue.img3} alt="IconGame" />}
+        {(index === 2) && <img className="img-Card3"  style={{ width: "24px", height: "24px" }} src={Catalogue.img4} alt="IconGame" />}
 
-        {(index === 3) && <img className="ImgCard4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
-        {(index === 3) && <img className="ImgCard4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img5} alt="IconGame" />}
-        {(index === 3) && <img className="ImgCard4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img6} alt="IconGame" />}
-        {(index === 3) && <img className="ImgCard4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img7} alt="IconGame" />}
+        {(index === 3) && <img className="img-Card4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 3) && <img className="img-Card4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img5} alt="IconGame" />}
+        {(index === 3) && <img className="img-Card4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img6} alt="IconGame" />}
+        {(index === 3) && <img className="img-Card4"  style={{ width: "24px", height: "24px" }} src={Catalogue.img7} alt="IconGame" />}
 
-        {(index === 4) && <img className="ImgCard5"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 4) && <img className="img-Card5"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
 
-        {(index === 5) && <img className="ImgCard6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
-        {(index === 5) && <img className="ImgCard6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img5} alt="IconGame" />}
-        {(index === 5) && <img className="ImgCard6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img6} alt="IconGame" />}
-        {(index === 5) && <img className="ImgCard6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img8} alt="IconGame" />}
-        {(index === 5) && <img className="ImgCard6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img7} alt="IconGame" />}
+        {(index === 5) && <img className="img-Card6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 5) && <img className="img-Card6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img5} alt="IconGame" />}
+        {(index === 5) && <img className="img-Card6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img6} alt="IconGame" />}
+        {(index === 5) && <img className="img-Card6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img8} alt="IconGame" />}
+        {(index === 5) && <img className="img-Card6"  style={{ width: "24px", height: "24px" }} src={Catalogue.img7} alt="IconGame" />}
 
-        {(index === 6) && <img className="ImgCard7"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
-        {(index === 6) && <img className="ImgCard7"  style={{ width: "24px", height: "24px" }} src={Catalogue.img3} alt="IconGame" />}
-        {(index === 6) && <img className="ImgCard7"  style={{ width: "24px", height: "24px" }} src={Catalogue.img4} alt="IconGame" />}
+        {(index === 6) && <img className="img-Card7"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 6) && <img className="img-Card7"  style={{ width: "24px", height: "24px" }} src={Catalogue.img3} alt="IconGame" />}
+        {(index === 6) && <img className="img-Card7"  style={{ width: "24px", height: "24px" }} src={Catalogue.img4} alt="IconGame" />}
 
-        {(index === 7) && <img className="ImgCard8"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
-        {(index === 7) && <img className="ImgCard8"  style={{ width: "24px", height: "24px" }} src={Catalogue.img3} alt="IconGame" />}
-        {(index === 7) && <img className="ImgCard8"  style={{ width: "24px", height: "24px" }} src={Catalogue.img4} alt="IconGame" />}
+        {(index === 7) && <img className="img-Card8"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 7) && <img className="img-Card8"  style={{ width: "24px", height: "24px" }} src={Catalogue.img3} alt="IconGame" />}
+        {(index === 7) && <img className="img-Card8"  style={{ width: "24px", height: "24px" }} src={Catalogue.img4} alt="IconGame" />}
         
-        {(index === 8) && <img className="ImgCard9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
-        {(index === 8) && <img className="ImgCard9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img5} alt="IconGame" />}
-        {(index === 8) && <img className="ImgCard9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img6} alt="IconGame" />}
-        {(index === 8) && <img className="ImgCard9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img8} alt="IconGame" />}
+        {(index === 8) && <img className="img-Card9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 8) && <img className="img-Card9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img5} alt="IconGame" />}
+        {(index === 8) && <img className="img-Card9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img6} alt="IconGame" />}
+        {(index === 8) && <img className="img-Card9"  style={{ width: "24px", height: "24px" }} src={Catalogue.img8} alt="IconGame" />}
 
-        {(index === 9) && <img className="ImgCard10"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
+        {(index === 9) && <img className="img-Card10"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
         </section>
      
        </section> 

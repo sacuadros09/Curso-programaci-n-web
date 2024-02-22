@@ -1,10 +1,10 @@
 .Contacts{
     display: flex;
     flex-direction: row;
-    margin-top: 160px;
+    margin-top: 170px;
     border-bottom: solid;
 }
-.LeftContacts{
+.left-Contacts{
     display: flex;
     flex-direction: row;
     margin-left: 60px;
@@ -49,13 +49,13 @@
     padding-right: 40px
 }
 
-.MapaDelSitio{
+.mapa-del-Sitio{
     font-size: 16px;
     color: aliceblue;
     padding-right: 385px
 }
 
-.ButtonGlobeEu{
+.button-globe-Eu{
     background-color: rgba(255, 255, 255, 0);
     color: aliceblue;
     display: flex;
@@ -72,3 +72,63 @@
     margin-right: 5px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .Contacts{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        border-bottom: solid;
+        display: none;
+    }
+    .left-Contacts{
+        display: flex;
+        flex-direction: row;
+        margin-left: 1px;  
+        display: none;
+    }
+
+    .Empleo{
+        margin-left: 60px;
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px
+        
+    }
+    
+    .Informacion{
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px
+    }
+    
+    .Asistencia{
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px
+    }
+    
+    .Contacto{
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px
+    }
+    
+    .Prensa{
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px
+    }
+    
+    .Api{
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px
+    }
+    
+    .mapa-del-Sitio{
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 385px
+    }
+    
+}
