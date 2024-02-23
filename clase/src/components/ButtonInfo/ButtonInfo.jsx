@@ -1,4 +1,6 @@
+// Se importa la librería React 
 import React from "react"
+// Se importar el estilos CSS asociados al componente
 import "./ButtonInfo.css"
 
 export const ButtonInfo = () =>{

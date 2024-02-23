@@ -1,4 +1,6 @@
+// Se importa el estilos CSS asociados al componente
 import './Body.css'
+// Se importa la librería React,useState y las imagenes asociados al componente
 import React, { useState } from "react"
 import GameOverwatch from "../../Images/OverwatchDragon.jpg"
 import DiabloIVBody from "../../Images/BodyDiabloIV.jpg"
@@ -7,6 +9,7 @@ import DiabloIIBody from "../../Images/Diablo2Body.jpg"
 import FlechaDer from "../../Images/Flecha.png"
 import FlechaIzq from "../../Images/Flecha.png"
 
+// Datos de las imágenes del carrusel
 const dataImg = [
     {
         img:GameOverwatch,
@@ -42,19 +45,21 @@ const dataImg = [
     },
 ]
 
-
+// Componente funcional para el carrusel de imágenes
 export  function  Body () {
-   
+   // Estado para seguir la imagen actual en el carrusel
     const [current, setCurrent] = useState(0)
 
+// Función para pasar a la siguiente imagen del carrusel
     const derSlide = () => {
         setCurrent(current === dataImg.length -1 ? 0 : current + 1)
     }
-
+    
+ // Función para retroceder a la imagen anterior del carrusel
     const izqSlide = () => {
         setCurrent(current === dataImg.length -1 ? 0 : current - 1)
     }
-
+ // Renderizado del componente
 return (
     <section className='carusel-Body'>
         <img className='flecha-Izquierda'onClick={izqSlide} src= {FlechaDer}alt='left arrow'/>

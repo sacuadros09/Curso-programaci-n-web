@@ -1,4 +1,6 @@
+// Se importar el estilos CSS asociados al componente
 import './Footer.css'
+// Se importa la librería React y las imagenes asociados al componente
 import React from 'react'
 import BlizzardsLogo from "../../Images/BlizzardsLogo.png"
 import xTwitter from "../../Images/icons8-twitterx.svg"
@@ -8,7 +10,7 @@ import xInstagram from "../../Images/icons8-instagram.svg"
 import xYoutube from "../../Images/icons8-youtube-play.svg"
 
 
-
+// Componente funcional Footer
 export const Footer = () => {
     return(
        <section className='Footer'>

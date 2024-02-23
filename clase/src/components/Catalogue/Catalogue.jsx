@@ -1,5 +1,9 @@
+// Se importa la librería React
 import React from "react"
+// Se importa el estilos CSS asociados al componente
 import "./Catalogue.css"
+
+// Se importar las imágenes necesarias para el catálogo
 import Wow1 from "../../Images/Wow1.png"
 import Wow2 from "../../Images/Wow2.jpg"
 import WarcraftRumble from "../../Images/WarcraftRumble1.jpg"
@@ -18,7 +22,7 @@ import PlayStation from "../../Images/device-gamepad-2.svg"
 import Steam from "../../Images/steam-svgrepo-com.svg"
 import Switch from "../../Images/device-nintendo.svg"
 
-
+// Definir el array de datos para las tarjetas del catálogo
 const CatalogueCard = [
 {img: Wow1,Title:"The War Within",Description:"MMORPG",img2: BattleNet},
 {img: Wow2,Title:"Cataclysm Classic",Description:"MMORPG",img2:BattleNet},
@@ -32,6 +36,7 @@ const CatalogueCard = [
 {img: WarcraftIIIReforged,Title:"Warcraft III: Reforged",Description:"ESTRATEGIA EN TIEMPO REAL",img2: BattleNet},
 ]
 
+// Definir el componente funcional del Catalogo
 export function Catalogue (){
     return( 
         <section className="card-Games">
@@ -43,6 +48,7 @@ export function Catalogue (){
         <h3 className="description-Card"> {Catalogue.Description}</h3>
 
         <section className="Logitos">
+         {/* Sección contenedora de los logotipos" */}
         {(index === 0) && <img className="img-Card0"  style={{width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}
 
         {(index === 1) && <img className="img-Card2"  style={{ width: "24px", height: "24px" }} src={Catalogue.img2} alt="IconGame" />}

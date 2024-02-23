@@ -1,9 +1,11 @@
+// Se importar el estilos CSS asociados al componente
 import './DownloadBattle.css'
+// Se importa la librería React
 import React from 'react'
-import blizardLogo from "../../Images//IconoCuenta.png"
 
 
 
+// Componente funcional DownloadBattle
 export const DownloadBattle = () => {
     return(
        <section className='download-Battle'>
