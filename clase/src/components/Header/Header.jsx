@@ -8,6 +8,8 @@ import {DiabloBlizzard} from "../NavBarDiablo/NavBarDiablo"
 import {OverwatchBlizzard } from '../NavBarOverwatch/NavBarOverwatch'
 import { StarcraftBlizzard } from '../NavBarStarcraft/NavBarStarcraft'
 import { HeroesBlizzard } from '../NavBarHeroes/NavBarHeroes'
+import { InformacionBlizzard } from '../NavBarInformacion/NavBarInformacion'
+import { CelularBlizzard } from '../NavBarCelular/NavBarCelular'
 
 
 
@@ -17,6 +19,8 @@ export default function Header(){
     const [showMenu3, setShowMenu3] = useState(false)
     const [showMenu4, setShowMenu4] = useState(false)
     const [showMenu5, setShowMenu5] = useState(false)
+    const [showMenu6, setShowMenu6] = useState(false)
+    const [showMenu7, setShowMenu7] = useState(false)
     
     const handleClick = (e) => {
         setShowMenu(!showMenu)
@@ -38,13 +42,26 @@ export default function Header(){
         setShowMenu5(!showMenu5)
       }
 
+      const handleClick6 = (e) => {
+        setShowMenu6(!showMenu6)
+      }
+
+      const handleClick7 = (e) => {
+        setShowMenu7(!showMenu7)
+      }
+
+
 
     return(
         <header>
         <section className="nav-Bar">
         <section className="left-Categories">
         <img className="Logo" src={BlizzardLogo} alt="BlizzardLogo"></img>
-        <img className='Menu' src={Menu} alt='MenuIcon'></img>
+      <button className='pp' onClick={handleClick7}>
+        <img className='Menu'  src={Menu} alt='MenuIcon'></img>
+        </button>
+     
+
         <section className='Categories'>
 
          <button className='warcrafts-button' onClick={handleClick}>
@@ -68,8 +85,13 @@ export default function Header(){
             </button>
         </section>
         </section>
+
         <section className="right-Catergories">
+
+        <button className='informacion-button' onClick={handleClick6}>
         <li className='informacion-Title'>Información</li> 
+        </button>
+
         <li className='tienda-Title'>Tienda</li>
         <img className='icon-Img' src={IconoCuenta} alt="IconoCuenta"></img>
         <li className='cuenta-Title'>Cuenta</li>  
@@ -99,6 +121,15 @@ export default function Header(){
 
         <section className='heroes-nav-Bar'>
        {!showMenu5 ? null : <HeroesBlizzard/>}
+        </section>
+
+        <section className='informacion-nav-Bar'>
+       {!showMenu6 ? null : <InformacionBlizzard/>}
+        </section>
+
+        
+        <section className='informacion-nav-Bar'>
+       {!showMenu7 ? null : <CelularBlizzard/>}
         </section>
 
         </header>
