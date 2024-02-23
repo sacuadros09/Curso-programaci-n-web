@@ -85,30 +85,35 @@ li{
 
 .diablo-Title{
     font-size:16px;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
 .overwatch-Title{
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
 .starcraft-Title{
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 1px;
 }
+
 
 .points-Title{
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.079);
     color: aliceblue;
-    width: 42px;
+    width: 50px;
     height: 45px;
     margin-top: 8px;
     display: flex;
     justify-content: center;
     align-items: Top;
     
+}
+
+.points-nam{
+    font-size: 20px;
 }
 
 .informacion-Title{
@@ -130,6 +135,16 @@ li{
 .diablos-button{
     background-color: transparent;
 }
+
+.overwatch-button{
+    background-color: transparent;
+}
+
+.starcraft-button{
+    background-color: transparent;
+}
+
+
 
 
 @media only screen and (max-width: 1024px) {

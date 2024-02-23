@@ -1,16 +1,16 @@
-.nav-Diablo {
+.nav-Overwatch {
     display:  flex;
     position: fixed;
     flex-direction: column;
     width: 350px;
-    height: 350px;
+    height: 100px;
     margin-top: 88px;
-    margin-left: 90px;
+    margin-left: 200px;
     background-color: #181717;
     z-index: 10;    
 
 }
-.img-Diablo {
+.img-Overwatch {
     width: 40px;
     height: 40px;
     display: flex;
@@ -20,7 +20,7 @@
    
 }
 
-.title-Diablo{
+.title-Overwatch {
     font-size: 17px;
     color: aliceblue;
     height: 10px;
@@ -31,7 +31,7 @@
     
 }
 
-.subtitle-Diablo {
+.subtitle-Overwatch  {
     font-size: 13px;
     color: #D0E9FF99;
     margin-top: 35px;
