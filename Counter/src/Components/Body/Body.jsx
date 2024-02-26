@@ -4,6 +4,7 @@ import { Button } from "./Button/Button";
 import { Counter } from "./Counter/Counter";
 import MessiImage from "../../Images/Messi.png";
 import NeymarImage from "../../Images/Cr7.png";
+import Televisor from "../../Images/Televisor.png"
 
 
 export const Body = () => {
@@ -33,7 +34,8 @@ export const Body = () => {
     };
 
     return (
-        <>
+        <div className="tv-container">
+            
             <section className="players-container">
                 {players.map((player) => (
                     <div key={player.id} className="player-wrapper">
@@ -62,12 +64,13 @@ export const Body = () => {
                         </div>
                     </div>
                 ))}
+                <Button
+                    title="Reset"
+                    type="reset"
+                    onClick={() => setPlayers(initialPlayers)}
+                ></Button>
             </section>
-            <Button
-                title="Reset"
-                type="reset"
-                onClick={() => setPlayers(initialPlayers)}
-            ></Button>
-        </>
+            <img src={Televisor} alt="Televisor" className="tv-image" />
+        </div>
     );
 };

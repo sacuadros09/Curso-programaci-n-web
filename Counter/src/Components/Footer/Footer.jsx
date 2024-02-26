@@ -1,7 +1,7 @@
-
+import "./Footer.css"
 
 export const Footer = () => {
     return (
-      <p>By Santiago Cuadros</p>
+      <p className="Foot">By Santiago Cuadros</p>
     )
   }
