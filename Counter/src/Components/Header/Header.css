@@ -1,0 +1,17 @@
+.futbol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+
+.real-logo {
+    width: 10%;
+    height: 10%;
+}
+
+.barcelona-logo {
+    width: 9%;
+    height: 9%;
+}
