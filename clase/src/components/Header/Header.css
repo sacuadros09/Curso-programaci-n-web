@@ -163,7 +163,7 @@ li{
     display: flex;
     flex-direction: row;
     background-color: #282d43;
-    width: 64%;
+    width: 67%;
     height: 3.3%;
     margin-top: 1px;
     position: fixed;
@@ -175,7 +175,7 @@ li{
     width: 30px;
     height: 30px;
    display: flex;
-   margin-left: -60px;
+   margin-left: -77px;
 
 }
 
@@ -246,7 +246,7 @@ li{
   
     height: 24px;
     display: flex;
-margin-left: -247px;
+margin-left: -267px;
 }
 
 .points-nam{
@@ -296,4 +296,8 @@ margin-left: -247px;
     
 }
 
+.pp{
+    display: flex;
+    background-color: transparent;
+}
   }

@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer/Footer"
 
 export default function App(){
     return(
-        <div>
+        <main>
         <Header/>
         <Body/>
         <Games/>
@@ -19,7 +19,7 @@ export default function App(){
         <DownloadBattle/>
         <Contacts/>
         <Footer/>
-        </div>
+        </main>
     
     )
     }
