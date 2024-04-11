@@ -1,4 +1,4 @@
-export async function fetchFact() {
+export  async function fetchFact() {
   try {
       const response = await fetch('https://catfact.ninja/fact');
       if (!response.ok) {

@@ -1,14 +1,11 @@
 import { useState,useEffect } from "react"
-import dataCat, { fetchFact } from "../Data/getCats"
+import { fetchFact } from "../Data/getCats";
 import "./Card.css"
-
-
-
 
 export const Card =  () =>   {
 
     const [loading, setLoading] = useState(false);
-    const [catFact, setCatFact] = useState([]);
+    const [catFact, setCatFact] = useState("");
     const [catImage, setCatImage] = useState(null);
 
 
@@ -17,22 +14,27 @@ export const Card =  () =>   {
             const dataFact = await fetchFact()
             setCatFact(dataFact.fact)
 
-            const imgFact = await fetchFact()
-            setCatImage(imgFact.fact)
+            const imgFact = await fetchFact(dataFact.fact)
+            setCatImage(imgFact)
         } catch (error) {
             console.error("No Miaumiu")
         }
     }
+
+    useEffect(() => {
+        dataCard();
+    }, []);
     return (
         <div className="card">
             <section>
                 <div className="mid-card">
-                <p className="text">{catFact}</p>
+                <h2 className="text">{catFact}</h2>
                 </div>
             <img src={catImage} className="image" alt="" />
             </section>
         </div>
     );
 }
+
 
 
