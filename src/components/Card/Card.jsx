@@ -1,5 +1,7 @@
 import { useState,useEffect } from "react"
 import { fetchFact } from "../Data/getCats";
+import { imgCats } from "../Utils/imgCats";
+import { Button } from "../Button/Button";
 import "./Card.css"
 
 export const Card =  () =>   {
@@ -14,7 +16,7 @@ export const Card =  () =>   {
             const dataFact = await fetchFact()
             setCatFact(dataFact.fact)
 
-            const imgFact = await fetchFact(dataFact.fact)
+            const imgFact = await imgCats(dataFact.fact)
             setCatImage(imgFact)
         } catch (error) {
             console.error("No Miaumiu")
@@ -32,6 +34,7 @@ export const Card =  () =>   {
                 </div>
             <img src={catImage} className="image" alt="" />
             </section>
+            <Button onClick></Button>
         </div>
     );
 }
