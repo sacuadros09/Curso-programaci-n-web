@@ -3,6 +3,8 @@ import dataCat, { fetchFact } from "../Data/getCats"
 import "./Card.css"
 
 
+
+
 export const Card =  () =>   {
 
     const [loading, setLoading] = useState(false);
@@ -32,3 +34,5 @@ export const Card =  () =>   {
         </div>
     );
 }
+
+
