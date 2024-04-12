@@ -34,9 +34,9 @@ export const Card =  () =>   {
     return (
         <div className="card">
             <section>
-                <div className="mid-card">
+                <section className="mid-card">
                 <h2 className="text">{catFact}</h2>
-                </div>
+                </section>
             <img src={catImage} className="image" alt="" />
             </section>
             <Button onClick={anotherFact} tittle={"More Miaufact"} />
