@@ -26,6 +26,11 @@ export const Card =  () =>   {
     useEffect(() => {
         dataCard();
     }, []);
+
+
+    const anotherFact = () => {
+        dataCard(); 
+    };
     return (
         <div className="card">
             <section>
@@ -34,7 +39,7 @@ export const Card =  () =>   {
                 </div>
             <img src={catImage} className="image" alt="" />
             </section>
-            <Button onClick></Button>
+            <Button onClick={anotherFact} tittle={"More Miaufact"} />
         </div>
     );
 }
