@@ -1,5 +1,5 @@
-import { Card } from "./components/Card/Card";
-import { Header } from "./components/Header/Header";
+import { Header, Card } from "./components/index";
+import './App.css'
 
 
 
